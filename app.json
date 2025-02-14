@@ -1,5 +1,5 @@
 {
-  "name": "Queen Anita V4",
+  "name": "el lapaix",
   "description": "A WhatsApp Bot Created By David Cyril",
   "logo": "https://telegra.ph/file/f6230a0cb5b118fa01561.jpg",
   "keywords": ["bot", "WhatsApp", "JavaScript"],
@@ -8,7 +8,7 @@
   "env": {
     "SESSION_ID": {
       "description": "Put your SESSION_ID here.",
-      "value": ""
+      "value": "{"noiseKey":{"private":{"type":"Buffer","data":"6GN4adK/0dyrJujXRertb3c5RXayKtbN1lYjm126CVI="},"public":{"type":"Buffer","data":"iyiXl07FnoPdnj919IhoOGM1JIrPTPLc/7HuSvT2ZjM="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"EIrtMwHtMmbqYrTpy6HaydpBX1oKP/OOJkkHVixXx2s="},"public":{"type":"Buffer","data":"LcZrCuhzeHNDFI2AbKJl7apve5HnoVnEZo4bkZy6QnY="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"eDjCUBMFRbMj/qGTlSvSVzkNpgoOUZzGkmmtpq6a9Hs="},"public":{"type":"Buffer","data":"HBxPjtGbcgwivBQ07spFPvqpz/66naO4/VEFQZpvhBI="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"WK9T7M8d9CJQ/z3rItPeJYi4Ue1KrZNu91ve/OQC3kY="},"public":{"type":"Buffer","data":"pWt6ZkMZCmle2CE6opROqeihAPjFBJ20bcd+HJ3B2iI="}},"signature":{"type":"Buffer","data":"RTwCN8RALSktiNgDjy5nQ7yqm8kCdNXTiHpOy0/vUDoiJ2Z4L2uMMonjdU8Ecq7H4VBkA2vRk6UPw5Fs7aZ9CQ=="},"keyId":1},"registrationId":125,"advSecretKey":"JsvKMImia+xGoodICVeMqI3F0CDDtbPv7X83ZEHok0Q=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"deviceId":"--aj5UKyQ2KVLKPB7FgvLw","phoneId":"81c16325-31cc-4bb3-9831-8468085f689a","identityId":{"type":"Buffer","data":"JE5JUszo8sUUtGaOZqg4+oCBW0w="},"registered":true,"backupToken":{"type":"Buffer","data":"3rjyDFNiJkO1+o92B4nMFBet8MM="},"registration":{},"pairingCode":"RQHRWZAX","me":{"id":"237692548624:6@s.whatsapp.net","name":"La Mélodie"},"account":{"details":"CKiH2bEEEKT5u70GGAQgACgA","accountSignatureKey":"IsUVkWMzvM1Aur0E0SHkMx4sLVpRcvZQ9HXiQX78R0Y=","accountSignature":"NAbtBIztyImadBcl8cEc4UlyYdLlTFGp36Ri2TgGPmJiJ9AG+CYjUvR89nqewJQsYt1usNdWtN4eEYI++PE6Dg==","deviceSignature":"SWp+qyb0ah0PaepgQc7GTn+G/hYUNXZxCeb6qVB31aGXioMhIxJzF7JlT9cwrJR23RB6aqZH+gRpXHsGjKNPBA=="},"signalIdentities":[{"identifier":{"name":"237692548624:6@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BSLFFZFjM7zNQLq9BNEh5DMeLC1aUXL2UPR14kF+/EdG"}}],"platform":"smba","lastAccountSyncTimestamp":1739521202,"myAppStateKeyId":"AAAAAAcH"}"
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. You can set `all | . | .!*`",
@@ -41,11 +41,11 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\").",
-      "value": "2349066528353"
+      "value": "237692548624"
     },
     "PUBLIC": {
       "description": "Worktype of your bot. Use public or private. If it is private, then only the bot number can use it. If public, then everyone can use it.",
-      "value": "public"
+      "value": "private"
     },
     "AUTHOR": {
       "description": "Put Sticker Pack Author_Name.",
